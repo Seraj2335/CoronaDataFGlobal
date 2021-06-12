@@ -14,7 +14,7 @@ class ScreenApp extends Component {
           isLoading:false
         
       });
-      console.log(this.state.item[1].location);
+     
      
   }
 
