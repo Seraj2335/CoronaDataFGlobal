@@ -25,8 +25,12 @@ class ScreenApp extends Component {
   }
      
     return(<div>
-    <h1>Corona Data Stat Countrywide</h1>
-      <table >
+           <nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1" >Corona Data Stat</span>
+</nav>
+    
+  
+      <table  width="100%" border="1" className="bg bg-light">
       <tr> <th>Location</th>
       <th>Latitude</th>
       <th>Longitude</th>
